@@ -207,14 +207,17 @@ function addNewUser($client, $username, $userEmail){
 }
 
 function updateRight($client, $lp_duration, $userEmail){
+	$beginDate = date("Y/m/d", strtotime("-2 days"));
+	$ExpirationDate = date("Y/m/d", strtotime("+1 year"));
+
 	$updateRight_param = array(
 		'AdminEmail' 				=> DRMX_ACCOUNT,
 		'WebServiceAuthStr' 		=> DRMX_AUTHENTICATION,
 		'RightsID' 					=> DRMX_RIGHTSID,
 		'Description' 				=> "Courses Rights (Please don't delete)",
 		'PlayCount' 				=> "-1",
-		'BeginDate' 				=> "2023/2/20",
-		'ExpirationDate' 			=> "2033/8/16",
+		'BeginDate' 				=> $beginDate,
+		'ExpirationDate' 			=> $ExpirationDate,
 		'ExpirationAfterFirstUse' 	=> $lp_duration,
 		'RightsPrice' 				=> "0",
 		'AllowPrint' 				=> "False",
