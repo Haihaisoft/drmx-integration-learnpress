@@ -59,11 +59,11 @@ DRM-X 4.0 supports [encrypted video](https://www.haihaisoft.com/Video-DRM-Protec
 
 ​	Login to your DRM-X 4.0 account, visit the License Profile page, and create a License License that belongs to the course.
 
-​	Profile Nam: We recommend that the License Profile name be the same as the course name.
+​	**Profile Nam:** We recommend that the License Profile name be the same as the course name.
 
-​	Default Rights: Select any one of the Rights.
+​	**Default Rights:** Select any one of the Rights.
 
-​	ProductID in your system(Option): Set the ID of the corresponding course here, which is the post id viewed in the first step.
+​	**ProductID in your system(Option):** Set the ID of the corresponding course here, which is the post id viewed in the first step.
 
 ​	Finally, select License is Revocable below and click the Submit button.
 
