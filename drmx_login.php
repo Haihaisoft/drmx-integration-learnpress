@@ -81,7 +81,6 @@ while($order_result = mysqli_fetch_array($order_query, MYSQLI_ASSOC)){
 						$addNewUserResult = addNewUser($client, $username, $userEmail);
 						$info = $addNewUserResult;
 						$flag = 1;
-						break;
 					}
 
 					// check user is revoked
