@@ -46,35 +46,35 @@ DRM-X 4.0 supports [encrypted video](https://www.haihaisoft.com/Video-DRM-Protec
 
 ### 1. Create or edit LearnPress courses
 
-​	Get the course ID through the URL "**post**" parameter in the browser address bar, the value of the "**post**" is the course ID.
+Get the course ID through the URL "**post**" parameter in the browser address bar, the value of the "**post**" is the course ID.
 
 ### 2. Create the corresponding DRM-X 4.0 License Profile for the course
 
-​	Login to your DRM-X 4.0 account, visit the License Profile page, and create a License Profile that belongs to the course.
+Login to your DRM-X 4.0 account, visit the License Profile page, and create a License Profile that belongs to the course.
 
 - **Profile Nam:** We recommend that the License Profile name be the same as the course name.
 - **Default Rights:** Select any one of the Rights.
 - **ProductID in your system(Option):** Set the ID of the corresponding course here, which is the post id viewed in the first step.
 
-​	Finally, select License is Revocable below and click the Submit button.
+Finally, select License is Revocable below and click the Submit button.
 
 ### 3. Protect Course Videos
 
-​	Visit the DRM-X 4.0 Protect Files page, select the License Profile (course) of the video you want to protect, and complete the protection.
+Visit the DRM-X 4.0 Protect Files page, select the License Profile (course) of the video you want to protect, and complete the protection.
 
 ### 4. Upload the protected video
 
-​	You can upload the protected video to your Wordpress web server, or to a separate video storage server. But it must have an absolute URL to be embedded in Xvast online player. For example: https://www.domainname.com/videos/xxxxx_P.mp4
+You can upload the protected video to your Wordpress web server, or to a separate video storage server. But it must have an absolute URL to be embedded in Xvast online player. For example: https://www.domainname.com/videos/xxxxx_P.mp4
 
 ### 5. Embed the protected video
 
-​	Embed the protected video into the LearnPress course. Create or edit a Lesson for a LearnPress course. Embed the encrypted video using the following shortcode. [xvast-player] https://www.domainname.com/videos/xxxxx_P.mp4 [/xvast-player]
+Embed the protected video into the LearnPress course. Create or edit a Lesson for a LearnPress course. Embed the encrypted video using the following shortcode. [xvast-player] https://www.domainname.com/videos/xxxxx_P.mp4 [/xvast-player]
 
 ## 3. Set the URL of DRM-X 4.0 obtain license
 
-​	Visit DRM-X 4.0 "**Account Settings**" - "**Site Integration Preferences**" - select "**Custom Login Page Integration**"
+Visit DRM-X 4.0 "**Account Settings**" - "**Site Integration Preferences**" - select "**Custom Login Page Integration**"
 
-​	Set the **License URL**: The URL starts with the domain name of your WordPress site, for example: https://www.domain.com/wp-content/plugins/drmx-integration-learnpress/drmx_index.php You can also check the DRM-X 4.0 with LearnPress plugin page for a line of blue URL, which is the URL of your website to get the license.
+Set the **License URL**: The URL starts with the domain name of your WordPress site, for example: https://www.domain.com/wp-content/plugins/drmx-integration-learnpress/drmx_index.php You can also check the DRM-X 4.0 with LearnPress plugin page for a line of blue URL, which is the URL of your website to get the license.
 
 
 
