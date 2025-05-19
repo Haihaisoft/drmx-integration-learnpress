@@ -1,5 +1,5 @@
-﻿<?php 
-  require '../../../wp-load.php';
+<?php 
+  require_once dirname(__DIR__, 3) . '/wp-load.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -36,12 +36,12 @@
         </div>
       </div>
       <div class="login-foot">
-				<div class="foot-tit">Other options</div>
-				<div class="foot-acts">
-					<a class="link-reg" href="<?php echo site_url(); ?>" target="_blank">Help?</a>
-					<a class="link-get-pwd" href="<?php echo site_url(); ?>" target="_blank">Buy Course</a>
-				</div>
-			</div>
+	<div class="foot-tit">Other options</div>
+	<div class="foot-acts">
+	  <a class="link-reg" href="<?php echo site_url(); ?>" target="_blank">Help?</a>
+	  <a class="link-get-pwd" href="<?php echo site_url(); ?>" target="_blank">Buy Course</a>
+	</div>
+       </div>
     </div>
   </div>
 </body>
